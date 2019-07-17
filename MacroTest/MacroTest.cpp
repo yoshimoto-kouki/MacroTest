@@ -35,6 +35,8 @@ std::cout << "HELLO yosimoto!\n";
 std::cout << "Hello yoshimoto\n";
 #elif rtamura
 std::cout << "Hello rtamura\n";
+#elif yoshimoto
+	std::cout<<"リーダー！メンヴァーはリーダーからしか見えないそうです！"
 #else
 std::wcout << "WHO?\n";
 #endif
