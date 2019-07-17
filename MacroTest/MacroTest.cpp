@@ -33,9 +33,15 @@ int main(){
 std::cout << "HELLO yosimoto!\n";
 #elif yoshimoto
 std::cout << "Hello yoshimoto\n";
+#elif rtamura
+std::cout << "Hello rtamura\n";
 #else
 std::wcout << "WHO?\n";
 #endif
+
+
+
+
 	printf("my size:%d\n", MY_SIZE);
 	MY_LOG("test");
 	PointData*pPointData = DBG_NEW PointData;
