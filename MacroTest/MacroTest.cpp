@@ -37,8 +37,6 @@ std::cout << "Hello yoshimoto\n";
 std::cout << "Hello rtamura\n";
 #elif yoshimoto
 	std::cout << "リーダー！メンヴァーはリーダーからしか見えないそうです！";
-#elif ysimoura
-	std::cout << "ハハッ！細切れにしてやる♪\n";
 #else
 std::wcout << "WHO?\n";
 #endif
@@ -48,6 +46,8 @@ std::wcout << "WHO?\n";
 std::cout << "悪夢再び！マージするがいい！";
 #elif yoshimoto
 std::cout << "３度目の更新だったり…";
+#elif ysimoura
+std::cout << "ハハッ！細切れにしてやる♪\n";
 #endif
 
 	printf("my size:%d\n", MY_SIZE);
